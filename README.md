@@ -22,7 +22,7 @@ RNAseqRare(x,y)
 ```
 
 #### Output
-For this analysis, the rare varints in the region (i.e. X) are assoicted with the given read counts (i.e. Y) for all 3 methods: method 1 using SKAT with the normailized count data, method 2 using a negative binomial regression with the sum of rare variants in the region, and method 3 using a negative binomial regression with an indicator for rare variants in the region.
+For this analysis, the rare variants in the region (i.e. X) are associated with the given read counts (i.e. Y) for all 3 methods: method 1 using SKAT with the normalized count data, method 2 using a negative binomial regression with the sum of rare variants in the region, and method 3 using a negative binomial regression with an indicator for rare variants in the region.
 ```
 $`p-value from SKAT with normalized count data`
 [1] 0.04538739
