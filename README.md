@@ -7,7 +7,7 @@ install.packages("devtools") # The devtools package must be installed first
 install.packages("MASS") # The MASS package must be installed first
 install.packages("SKAT") # The SKAT package must be installed first
 
-devtools::install_github("SharonLutz/software/RNAseqRare")
+devtools::install_github("SharonLutz/RNAseqRare")
 ```
 #### Example
 For the given dataset dataR, one can test if the read counts (i.e. Y) are associated with a collection of rare variants (i.e. X). The code below runs this analysis.
