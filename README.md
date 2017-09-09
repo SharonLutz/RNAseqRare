@@ -40,3 +40,4 @@ xI          0.4629861  0.2514543  1.841234 6.558733e-02
 ```
 #### Reference
 **Lutz SM**, Thwing A, Fingerlin TE. (2017) A Statistical Framework for Rare Variant Associations with RNA-seq Data.  (Submitted)
+
