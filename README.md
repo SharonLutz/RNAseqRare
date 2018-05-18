@@ -1,7 +1,7 @@
 ## RNAseqRare
 The RNAseqRare R package performs expression quantitative trait loci (eQTL) analyses of rare variants for RNA-seq data. 
 
-#### Installation
+## Installation
 ```
 install.packages("devtools") # The devtools package must be installed first
 install.packages("MASS") # The MASS package must be installed first
@@ -9,7 +9,7 @@ install.packages("SKAT") # The SKAT package must be installed first
 
 devtools::install_github("SharonLutz/RNAseqRare")
 ```
-#### Example
+## Example
 For the given dataset dataR, one can test if the read counts (i.e. Y) are associated with a collection of rare variants (i.e. X). The code below runs this analysis.
 ```
 library(RNAseqRare)
@@ -21,7 +21,7 @@ x<-dataR[,1:124]
 RNAseqRare(x,y)
 ```
 
-#### Output
+## Output
 For this analysis, the rare variants in the region (i.e. X) are associated with the given read counts (i.e. Y) for all 3 methods: method 1 using SKAT with the normalized count data, method 2 using a negative binomial regression with the sum of rare variants in the region, and method 3 using a negative binomial regression with an indicator for rare variants in the region.
 ```
 $`p-value from SKAT with normalized count data`
@@ -38,5 +38,6 @@ $`negative binomial with indicator for rare variants`
 xI          0.4629861  0.2514543  1.841234 6.558733e-02
 
 ```
-#### Reference
+
+## Reference
 **Lutz SM**, Thwing A, Fingerlin TE. (2018) A Statistical Framework for Rare Variant Associations with RNA-seq Data.  (Submitted)
