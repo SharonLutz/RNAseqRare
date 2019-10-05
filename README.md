@@ -43,4 +43,4 @@ xI          0.4629861  0.2514543  1.841234 6.558733e-02
 As recomended in the paper, the SKAT (SKAT, SKAT-O, and SKAT-Burden) methods using the normalized read counts worked best in the simulation scenarios that were considered in the paper below.
 
 ## Reference
-**Lutz SM**, Thwing A, Fingerlin TE. (2019) eQTL mapping of rare variant associations using RNA-seq data: An evaluation of approaches. PLoS One. https://doi.org/10.1371/journal.pone.0223273
+**Lutz SM**, Thwing A, Fingerlin TE. (2019) eQTL mapping of rare variant associations using RNA-seq data: An evaluation of approaches. [PLoS One.](https://doi.org/10.1371/journal.pone.0223273)
